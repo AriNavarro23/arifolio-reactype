@@ -1,0 +1,57 @@
+{
+    "about-section": {
+      "title": "About me",
+      "description": "Hi! I'm a Front-end developer crafting sleek, functional websites. Specializing in seamless online experiences using HTML, CSS, JavaScript, and frameworks. Let's build something amazing!"
+    },
+    "experience-box": {
+      "title": "Years of experience"
+    },
+    "location-box" : {
+      "title": "From Buenos Aires, ARG"
+    },
+    "projects-section": {
+      "title": "Projects",
+      "projects_name":{
+        "todolist": "To do App",
+        "weather": "Weather App",
+        "password": "Password Generator",
+        "bluee": "Bluee IoT"},
+      "description": "Here are some projects I've worked on:",
+      "work-experience": "Work Experience",
+      "personal-experience": "Personal Experience",
+      "projects" : {
+        "todolist": "To do App for you daily task",
+        "weather": "Search for real-time weather in your preferred city.",
+        "password": "Generates secure and random keys for your accounts.",
+        "bluee": "Landing page for Bluee IoT"
+      }
+    },
+    "technologies-section": {
+      "title": "Technologies",
+      "description": "These are some of the technologies I've worked with:"
+    },
+    "experience-section": {
+      "title": "Experience",
+      "description": "I have worked for the following companies:",
+      "companies": {
+        "DD360": {
+          "dates": "Jul. 2022 — Nov. 2023"
+        },
+        "nolab": {
+          "dates":  "Feb. 2022 — Jul. 2022"
+        },
+        "esperanza": {
+          "dates":  "Nov. 2021 — Feb. 2022"
+        },
+        "bwl": {
+          "dates":  "Jan. 2021 — Nov. 2021"
+        }
+      }
+    },
+    "others-translations": {
+      "degree": "Front-end Developer",
+      "visit": "Visit",
+      "copy-right": "All rights reserved.",
+      "last-update": "Last update: February 21, 2024"
+    }
+  }

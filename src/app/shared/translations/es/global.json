@@ -1,0 +1,57 @@
+{
+    "about-section": {
+      "title": "Sobre mi",
+      "description": "¡Hola! Soy un desarrollador Front-end, creo webs elegantes y funcionales utilizando HTML, CSS, JS y sus frameworks. ¡Construyamos algo increible juntos!"
+    },
+    "experience-box": {
+      "title": "Años de experiencia"
+    },
+    "location-box" : {
+      "title": "De Buenos Aires, ARG"
+    },
+    "projects-section": {
+      "title": "Proyectos",
+      "projects_name":{
+        "todolist": "Lista de tareas",
+        "weather": "Clima",
+        "password": "Generador de contraseñas",
+        "bluee": "Bluee IoT"},
+      "description": "Algunos de los proyectos en los que he trabajado:",
+      "work-experience": "Experiencia laboral",
+      "personal-experience": "Experiencia personal",
+      "projects" : {
+        "todolist": "Aplicación para realizar tus tareas diarias.",
+        "weather": "Busca el clima de tu ciudad preferida en tiempo real.",
+        "password": "Genera claves seguras y aleatorias para tus cuentas.",
+        "bluee": "Landing page de Bluee IoT"
+      }
+    },
+    "technologies-section": {
+      "title": "Tecnologías",
+      "description": "Algunas de las tecnologías que he utilizado:"
+    },
+    "experience-section": {
+      "title": "Experiencia",
+      "description": "He trabajado en proyectos para empresas como:",
+      "companies": {
+        "DD360": {
+          "dates": "Jul. 2022 — Nov. 2023"
+        },
+        "nolab": {
+          "dates":  "Feb. 2022 — Jul. 2022"
+        },
+        "esperanza": {
+          "dates":  "Nov. 2021 — Feb. 2022"
+        },
+        "bwl": {
+          "dates":  "Ene. 2021 — Nov. 2021"
+        }
+      }
+    },
+    "others-translations": {
+      "degree": "Desarrollador Front-end",
+      "visit": "Visita",
+      "copy-right": "Todos los derechos reservados",
+      "last-update": "Última actualización: 27 de Marzo de 2024"
+    }
+  }
