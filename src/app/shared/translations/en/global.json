@@ -11,11 +11,12 @@
     },
     "projects-section": {
       "title": "Projects",
-      "projects_name":{
+      "project_name":{
         "todolist": "To do App",
         "weather": "Weather App",
         "password": "Password Generator",
-        "bluee": "Bluee IoT"},
+        "crud": "App Crud"
+      },
       "description": "Here are some projects I've worked on:",
       "work-experience": "Work Experience",
       "personal-experience": "Personal Experience",
@@ -23,7 +24,7 @@
         "todolist": "To do App for you daily task",
         "weather": "Search for real-time weather in your preferred city.",
         "password": "Generates secure and random keys for your accounts.",
-        "bluee": "Landing page for Bluee IoT"
+        "crud": "Manage your data through CRUD operations."
       }
     },
     "technologies-section": {
@@ -34,17 +35,14 @@
       "title": "Experience",
       "description": "I have worked for the following companies:",
       "companies": {
-        "DD360": {
-          "dates": "Jul. 2022 — Nov. 2023"
+        "melo": {
+          "dates": "Mar. 2022 — Dec. 2022"
         },
-        "nolab": {
-          "dates":  "Feb. 2022 — Jul. 2022"
+        "abc": {
+          "dates":  "Jan. 2023 — Dec. 2023"
         },
-        "esperanza": {
-          "dates":  "Nov. 2021 — Feb. 2022"
-        },
-        "bwl": {
-          "dates":  "Jan. 2021 — Nov. 2021"
+        "free": {
+          "dates":  "Jan. 2024 — Apr. 2024"
         }
       }
     },
@@ -52,6 +50,6 @@
       "degree": "Front-end Developer",
       "visit": "Visit",
       "copy-right": "All rights reserved.",
-      "last-update": "Last update: February 21, 2024"
+      "last-update": "Last update: March 27, 2024"
     }
   }

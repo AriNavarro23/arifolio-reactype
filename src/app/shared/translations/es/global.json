@@ -11,11 +11,12 @@
     },
     "projects-section": {
       "title": "Proyectos",
-      "projects_name":{
+      "project_name":{
         "todolist": "Lista de tareas",
-        "weather": "Clima",
+        "weather": "App del Clima",
         "password": "Generador de contraseñas",
-        "bluee": "Bluee IoT"},
+        "crud": "App Crud"
+      },
       "description": "Algunos de los proyectos en los que he trabajado:",
       "work-experience": "Experiencia laboral",
       "personal-experience": "Experiencia personal",
@@ -23,7 +24,7 @@
         "todolist": "Aplicación para realizar tus tareas diarias.",
         "weather": "Busca el clima de tu ciudad preferida en tiempo real.",
         "password": "Genera claves seguras y aleatorias para tus cuentas.",
-        "bluee": "Landing page de Bluee IoT"
+        "crud": "Gestiona tus datos, a traves de operaciones CRUD." 
       }
     },
     "technologies-section": {
@@ -34,17 +35,14 @@
       "title": "Experiencia",
       "description": "He trabajado en proyectos para empresas como:",
       "companies": {
-        "DD360": {
-          "dates": "Jul. 2022 — Nov. 2023"
+        "melo": {
+          "dates": "Mar. 2022 — Dic. 2022"
         },
-        "nolab": {
-          "dates":  "Feb. 2022 — Jul. 2022"
+        "abc": {
+          "dates":  "Ene. 2023 — Dic. 2023"
         },
-        "esperanza": {
-          "dates":  "Nov. 2021 — Feb. 2022"
-        },
-        "bwl": {
-          "dates":  "Ene. 2021 — Nov. 2021"
+        "free": {
+          "dates":  "Ene. 2024 — Abr. 2024"
         }
       }
     },

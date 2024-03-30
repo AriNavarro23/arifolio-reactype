@@ -58,7 +58,7 @@ const ProjectCard: FC<IProjectCard> = ({
 					</a>
 				)}
 				<div className='flex flex-col gap-1 z-[1]'>
-					<h3 className='text-2xl font-bold'>{project_name}</h3>
+					<h3 className='text-2xl font-bold'>{t(project_name)}</h3>
 					<p className='text-base opacity-70'>{t(description)}</p>
 					<div className='flex items-center gap-2 opacity-90 font-medium'>
 						{technologies.map(tech => (

@@ -16,13 +16,13 @@ import bwl_bg from '../../../assets/bwl_bg.webp'
 import bwl from '../../../assets/bwl.svg'
 import todolist from '../../../assets/todolist.webp'
 import weather from '../../../assets/weather.webp'
-import bluee from '../../../assets/bluee-iot.webp'
+import crud from '../../../assets/crud.webp'
 import password from '../../../assets/password.webp'
 
 export const Projects: IProjectCard[] = [
 	{
 		id: uuid(),
-		project_name: 'projects-section.projects_name.weather',
+		project_name: 'projects-section.project_name.todolist',
 		description: 'projects-section.projects.todolist',
 		screenShot: todolist,
 		demoLink: 'https://todolist-ochre-eight.vercel.app/',
@@ -33,7 +33,7 @@ export const Projects: IProjectCard[] = [
 	},
 	{
 		id: uuid(),
-		project_name: 'projects-section.projects_name.weather',
+		project_name: 'projects-section.project_name.weather',
 		description: 'projects-section.projects.weather',
 		screenShot: weather,
 		demoLink: 'https://weather-app-silk-gamma.vercel.app/',
@@ -44,63 +44,59 @@ export const Projects: IProjectCard[] = [
 	},
 	{
 		id: uuid(),
-		project_name: 'Password Generator',
+		project_name: 'projects-section.project_name.password',
 		description: 'projects-section.projects.password',
 		screenShot: password,
 		demoLink: 'https://password-generator-react-eta.vercel.app/',
 		className: 'lg:row-span-3 xl:col-span-4',
 		isPrivate: true,
 		index: 3,
-		technologies: ['React','|','Tailwind CSS','|','Next.js'],
+		technologies: ['React Js','|','Tailwind CSS','|','Next.js'],
 	},
 	{
 		id: uuid(),
-		project_name: 'Bluee IoT',
-		description: 'projects-section.projects.bluee',
-		screenShot: bluee,
-		demoLink: 'https://bluee.com.mx/',
+		project_name: 'projects-section.project_name.crud',
+		description: 'projects-section.projects.crud',
+		screenShot: crud,
+		demoLink: 'https://crud-redux-delta.vercel.app/',
 		className: 'lg:row-span-2 xl:col-span-4',
+		isPrivate: true,
 		index: 4,
-		technologies: ['Angular','|','TypeScript','|','SASS'],
+		technologies: ['React Js','|','Tailwind CSS'],
 	},
 ]
 export const Experiences: IExperienceCard[] = [
+	//melo
 	{
 		id: uuid(),
 		company_logo: dd360,
-		company_name: 'DD360',
-		position_name: 'Front-end Developer',
-		dates: 'experience-section.companies.DD360.dates',
+		company_name: 'Melo Estudio',
+		position_name: 'Web design and Developer',
+		dates: 'experience-section.companies.melo.dates',
 		url_site: 'https://dd360.com/',
 		background_url: dd3_bg,
 	},
+	//abc consultant
 	{
 		id: uuid(),
 		company_logo: nolab,
-		company_name: 'Nolab',
-		position_name: 'FullStack Developer Mid',
-		dates: 'experience-section.companies.nolab.dates',
+		company_name: 'ABC Consultant',
+		position_name: 'Front-end Developer jr',
+		dates: 'experience-section.companies.abc.dates',
 		url_site: 'https://nolab.mx/',
 		background_url: nolab_bg,
 	},
+	//freelance
 	{
 		id: uuid(),
 		company_logo: esperanza,
-		company_name: 'Grupo Esperanza',
-		position_name: 'Full Stack Developer Jr',
-		dates: 'experience-section.companies.esperanza.dates',
+		company_name: 'Freelance',
+		position_name: 'Front-end Developer jr',
+		dates: 'experience-section.companies.free.dates',
 		url_site: 'https://esperanza.mx/',
 		background_url: esperanza_bg,
 	},
-	{
-		id: uuid(),
-		company_logo: bwl,
-		company_name: 'BWL',
-		position_name: 'Front-end Developer',
-		dates: 'experience-section.companies.bwl.dates',
-		url_site: 'https://www.bwl.com.mx/',
-		background_url: bwl_bg,
-	},
+
 ]
 
 export const DevTools: IDevToolsElement[] = [
@@ -136,11 +132,6 @@ export const DevTools: IDevToolsElement[] = [
 	},
 	{
 		id: uuid(),
-		name: 'Angular',
-		icon: 'https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg',
-	},
-	{
-		id: uuid(),
 		name: 'Next.js',
 		icon: 'https://www.svgrepo.com/show/354113/nextjs-icon.svg',
 		className: 'dark:invert opacity-70',
@@ -154,16 +145,6 @@ export const DevTools: IDevToolsElement[] = [
 		id: uuid(),
 		name: 'Tailwind CSS',
 		icon: 'https://tailwindcss.com/_next/static/media/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8.svg',
-	},
-	{
-		id: uuid(),
-		name: '.NET',
-		icon: 'https://upload.wikimedia.org/wikipedia/commons/7/7d/Microsoft_.NET_logo.svg',
-	},
-	{
-		id: uuid(),
-		name: 'Laravel',
-		icon: 'https://upload.wikimedia.org/wikipedia/commons/9/9a/Laravel.svg',
 	},
 	{
 		id: uuid(),

@@ -7,7 +7,7 @@ import { IExperienceCard } from '../../../../shared/models/global-interface'
 
 const PositionsSection: FC = () => {
 	return (
-		<section className='w-full grid auto-rows-[260px] grid-cols-8 gap-4'>
+		<section className='w-full grid auto-rows-[260px] grid-cols-6 gap-4'>
 			{Experiences.map((experience: IExperienceCard) => (
 				<ExperienceCard {...experience} />
 			))}
