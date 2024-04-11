@@ -8,7 +8,7 @@ export default {
 				// dusky: '#202329',
 				dusky: '#0b0a10',
 				'dusky-alt': 'rgba(11,10,16,0.5)',
-				moonlit: '#f5f5f7',
+				moonlit: '#d6d6d6',
 				midnight: '#343436',
 				// midnight: '#202329',
 				noon: '#efeef2',

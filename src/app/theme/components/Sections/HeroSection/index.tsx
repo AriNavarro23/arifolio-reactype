@@ -10,8 +10,8 @@ import { useThemeStore } from '../../../../shared/stores/useThemeStore'
 import { useTranslation } from 'react-i18next'
 
 import personal from '@/assets/Foto_perfil.jpg'
-import whiteMap from '@/assets/white_map.webp'
-import darkMap from '@/assets/dark_map.webp'
+import whiteMap from '@/assets/whiteMap.webp'
+import darkMap from '@/assets/darkMap.webp'
 import face from '@/assets/memoji_face.webp'
 
 const HeroSection: FC = () => {
@@ -74,7 +74,7 @@ const HeroSection: FC = () => {
 						<a
 							className='flex items-center font-medium bg-moonlit px-4 py-2 rounded-lg text-dusky gap-2 active:scale-[1.1] transition-transform duration-300'
 							href='mailto:navarro.ari.dev@gmail.com'
-							title='Email'
+							title='Email me'
 						>
 							<MdAlternateEmail />
 							<span className='hidden lg:flex'>Email</span>
