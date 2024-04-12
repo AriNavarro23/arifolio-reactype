@@ -5,6 +5,7 @@ import { motion } from 'framer-motion'
 import { GoHeartFill } from 'react-icons/go'
 import { FaLinkedin } from 'react-icons/fa6'
 import { MdAlternateEmail } from 'react-icons/md'
+import { RiReactjsLine } from 'react-icons/ri'
 
 const Footer = () => {
 	const { t } = useTranslation('global')
@@ -18,9 +19,9 @@ const Footer = () => {
 		>
 			<div className='w-full h-full bg-white dark:bg-raisin-black rounded-3xl flex items-center justify-between px-10'>
 				<div className='flex flex-col items-start opacity-50 max-w-[50%] lg:max-w-fit'>
-					<p>© 2024 Erick Pomié. {t('others-translations.copy-right')}</p>
+					<p>© 2024 Ariel Navarro. {t('others-translations.copy-right')}</p>
 					<p className='items-center gap-2 hidden lg:flex'>
-						Made with love <GoHeartFill /> and React
+						{t('others-translations.made-with')} <GoHeartFill className='text-red-700' /> {t('others-translations.and')} <RiReactjsLine className='text-cyan-600 dark:text-react' />
 					</p>
 				</div>
 				<div className='flex flex-col-reverse gap-3 items-end'>
@@ -30,14 +31,14 @@ const Footer = () => {
 					<div className='flex items-center gap-2 text-xl'>
 						<a
 							className='flex items-center font-medium'
-							href='mailto:erickvpomie@gmail.com'
+							href='mailto:navarro.ari.dev@gmail.com'
 							title='Email me'
 						>
 							<MdAlternateEmail />
 						</a>
 						<a
 							className='flex items-center font-medium'
-							href='https://www.linkedin.com/in/erickvpomie/'
+							href='https://www.linkedin.com/in/arinavarro/'
 							target='_blank'
 							rel='noreferrer'
 							title='LinkedIn'

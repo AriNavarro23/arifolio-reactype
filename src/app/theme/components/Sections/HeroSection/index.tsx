@@ -10,8 +10,8 @@ import { useThemeStore } from '../../../../shared/stores/useThemeStore'
 import { useTranslation } from 'react-i18next'
 
 import personal from '@/assets/Foto_perfil.jpg'
-import whiteMap from '@/assets/white_map.webp'
-import darkMap from '@/assets/dark_map.webp'
+import whiteMap from '@/assets/whiteMap.webp'
+import darkMap from '@/assets/darkMap.webp'
 import face from '@/assets/memoji_face.webp'
 
 const HeroSection: FC = () => {

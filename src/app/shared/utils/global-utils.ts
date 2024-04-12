@@ -6,16 +6,21 @@ import {
 	IProjectCard,
 } from '../models/global-interface'
 
-import dd3_bg from '../../../assets/dd3_bg.webp'
-import dd360 from '../../../assets/dd360.webp'
-import nolab_bg from '../../../assets/nolab_bg.webp'
-import nolab from '../../../assets/nolab.webp'
-import esperanza_bg from '../../../assets/esperanza_bg.webp'
-import esperanza from '../../../assets/esperanza.webp'
+
+//projects
 import todolist from '../../../assets/todolist.webp'
-import weather from '../../../assets/weather.webp'
+import weather from '../../../assets/weather.jpg'
 import crud from '../../../assets/crud.webp'
 import password from '../../../assets/password.webp'
+//background
+import bg_1 from '../../../assets/bg-1.jpg'
+import bg_2 from '../../../assets/bg-2.jpg'
+import bg_3 from '../../../assets/bg-3.jpg'
+//logos
+import dd360 from '../../../assets/dd360.webp'
+import abc from '../../../assets/logo-abc.webp'
+import esperanza from '../../../assets/esperanza.webp'
+
 
 export const Projects: IProjectCard[] = [
 	{
@@ -72,17 +77,17 @@ export const Experiences: IExperienceCard[] = [
 		position_name: 'Web design and Developer',
 		dates: 'experience-section.companies.melo.dates',
 		url_site: 'https://dd360.com/',
-		background_url: dd3_bg,
+		background_url: bg_1,
 	},
 	//abc consultant
 	{
 		id: uuid(),
-		company_logo: nolab,
+		company_logo: abc,
 		company_name: 'ABC Consultant',
 		position_name: 'Front-end Developer jr',
 		dates: 'experience-section.companies.abc.dates',
 		url_site: 'https://nolab.mx/',
-		background_url: nolab_bg,
+		background_url: bg_2,
 	},
 	//freelance
 	{
@@ -92,7 +97,7 @@ export const Experiences: IExperienceCard[] = [
 		position_name: 'Front-end Developer jr',
 		dates: 'experience-section.companies.free.dates',
 		url_site: 'https://esperanza.mx/',
-		background_url: esperanza_bg,
+		background_url: bg_3,
 	},
 
 ]

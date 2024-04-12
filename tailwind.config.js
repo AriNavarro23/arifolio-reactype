@@ -23,6 +23,7 @@ export default {
 				'gray-cool': '#2a3036',
 				'gray-chacra': '#718096',
 				'sun-beam': '#d69e2e',
+				react:'#22d3ee'
 			},
 			animation: {
 				'infinite-scroll': 'infinite-scroll 25s linear infinite',

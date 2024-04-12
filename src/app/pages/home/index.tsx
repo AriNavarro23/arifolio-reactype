@@ -12,7 +12,7 @@ const Home = () => {
 	const { t } = useTranslation('global')
 
 	return (
-		<div className='w-full bg-moonlit select-none text-midnight flex flex-col items-center subpixel-antialiased dark:bg-dusky dark:text-noon scroll-smooth gap-5 lg:gap-10 mb-10'>
+		<div className='w-full bg-noon select-none text-midnight flex flex-col items-center subpixel-antialiased dark:bg-dusky dark:text-noon scroll-smooth gap-5 lg:gap-10 mb-10'>
 			<div
 				id='portal'
 				className='w-full flex items-center justify-center mt-16 lg:mt-[3rem] fixed z-20'
