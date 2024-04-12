@@ -19,7 +19,8 @@ const Footer = () => {
 		>
 			<div className='w-full h-full bg-white dark:bg-raisin-black rounded-3xl flex items-center justify-between px-10'>
 				<div className='flex flex-col items-start opacity-50 max-w-[50%] lg:max-w-fit'>
-					<p>© 2024 Ariel Navarro. {t('others-translations.copy-right')}</p>
+					<p>© 2024 Ariel Navarro.</p>
+					<p>{t('others-translations.copy-right')}</p>
 					<p className='items-center gap-2 hidden lg:flex'>
 						{t('others-translations.made-with')} <GoHeartFill className='text-red-700' /> {t('others-translations.and')} <RiReactjsLine className='text-cyan-600 dark:text-react' />
 					</p>

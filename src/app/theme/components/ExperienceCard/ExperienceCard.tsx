@@ -40,7 +40,7 @@ const ExperienceCard: FC<IExperienceCard> = ({
 					src={company_logo}
 					alt={company_name}
 				/>
-				<p className='text-center text-moonlit leading-5 mt-1	 z-[1] font-medium'>
+				<p className='text-center text-moonlit leading-5 mt-1 z-[1] font-medium'>
 					{position_name}
 					<br />
 					{t(dates)}

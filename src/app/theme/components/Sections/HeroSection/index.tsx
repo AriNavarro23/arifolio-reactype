@@ -12,7 +12,7 @@ import { useTranslation } from 'react-i18next'
 import personal from '@/assets/Foto_perfil.jpg'
 import whiteMap from '@/assets/whiteMap.webp'
 import darkMap from '@/assets/darkMap.webp'
-import face from '@/assets/memoji_face.webp'
+import face from '../../../../../assets/memoji-2.png'
 
 const HeroSection: FC = () => {
 	const { THEME_LIGHT } = THEME_TYPES
@@ -123,7 +123,7 @@ const HeroSection: FC = () => {
 					alt='Location'
 					title='Location'
 				/>
-				<img className='w-8 z-[2]' src={face} alt='memoji' title='memoji' />
+				<img className='w-14 z-[2]' src={face} alt='memoji' title='memoji' />
 				<div className='w-20 h-20 bg-[#98d0ff] absolute z-[1] rounded-full bg-opacity-30 border-2 border-white animate__animated animate__pulse animate__infinite infinite animate__fast' />
 				<motion.div
 					initial={{ opacity: 0 }}
@@ -131,7 +131,7 @@ const HeroSection: FC = () => {
 					exit={{ opacity: 0 }}
 					className='w-full h-8 backdrop-blur-sm absolute left-0 bottom-0 z-[2] flex items-center justify-center text-left text-opacity-70'
 				>
-					<span className='text-xs font-medium'>
+					<span className='text-xs font-medium dark:text-midnight'>
 						{t('location-box.title')}
 					</span>
 				</motion.div>

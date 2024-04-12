@@ -11,6 +11,7 @@ import PositionsSection from '../../theme/components/Sections/PositionSection/in
 const Home = () => {
 	const { t } = useTranslation('global')
 
+	//header - hero - projects - experience - technologies - positions - footer
 	return (
 		<div className='w-full bg-noon select-none text-midnight flex flex-col items-center subpixel-antialiased dark:bg-dusky dark:text-noon scroll-smooth gap-5 lg:gap-10 mb-10'>
 			<div
