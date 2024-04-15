@@ -19,7 +19,7 @@ import bg_3 from '../../../assets/bg-3.jpg'
 //logos
 import dd360 from '../../../assets/dd360.webp'
 import abc from '../../../assets/logo-abc.webp'
-import esperanza from '../../../assets/esperanza.webp'
+import an from '../../../assets/logo-an-bl.png'
 
 
 export const Projects: IProjectCard[] = [
@@ -76,7 +76,7 @@ export const Experiences: IExperienceCard[] = [
 		company_name: 'Melo Estudio',
 		position_name: 'Web design and Developer',
 		dates: 'experience-section.companies.melo.dates',
-		url_site: 'https://dd360.com/',
+		url_site: 'https://melo-studio.vercel.app/',
 		background_url: bg_1,
 	},
 	//abc consultant
@@ -86,17 +86,17 @@ export const Experiences: IExperienceCard[] = [
 		company_name: 'ABC Consultant',
 		position_name: 'Front-end Developer jr',
 		dates: 'experience-section.companies.abc.dates',
-		url_site: 'https://nolab.mx/',
+		url_site: 'https://abc-consultant.vercel.app/',
 		background_url: bg_2,
 	},
 	//freelance
 	{
 		id: uuid(),
-		company_logo: esperanza,
+		company_logo: an,
 		company_name: 'Freelance',
 		position_name: 'Front-end Developer jr',
 		dates: 'experience-section.companies.free.dates',
-		url_site: 'https://esperanza.mx/',
+		url_site: 'https://an-developer.vercel.app/',
 		background_url: bg_3,
 	},
 
