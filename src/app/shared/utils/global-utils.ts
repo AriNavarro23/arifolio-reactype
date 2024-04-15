@@ -13,13 +13,13 @@ import weather from '../../../assets/weather.jpg'
 import crud from '../../../assets/crud.webp'
 import password from '../../../assets/password.webp'
 //background
-import bg_1 from '../../../assets/bg-1.jpg'
-import bg_2 from '../../../assets/bg-2.jpg'
-import bg_3 from '../../../assets/bg-3.jpg'
+import bg_1 from '../../../assets/bg-melo.jpg'
+import bg_2 from '../../../assets/bg-abc.jpg'
+import bg_3 from '../../../assets/bg-an.jpg'
 //logos
-import dd360 from '../../../assets/dd360.webp'
+import melo from '../../../assets/logo-melo.png'
 import abc from '../../../assets/logo-abc.webp'
-import an from '../../../assets/logo-an-bl.png'
+import an from '../../../assets/logo-an.png'
 
 
 export const Projects: IProjectCard[] = [
@@ -72,7 +72,7 @@ export const Experiences: IExperienceCard[] = [
 	//melo
 	{
 		id: uuid(),
-		company_logo: dd360,
+		company_logo: melo,
 		company_name: 'Melo Estudio',
 		position_name: 'Web design and Developer',
 		dates: 'experience-section.companies.melo.dates',
