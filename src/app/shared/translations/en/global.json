@@ -15,7 +15,8 @@
         "todolist": "To do App",
         "weather": "Weather App",
         "password": "Password Generator",
-        "crud": "App Crud"
+        "crud": "App Crud",
+        "fitness":"Website Fitness for client"
       },
       "description": "Here are some projects I've worked on:",
       "work-experience": "Work Experience",
@@ -24,7 +25,8 @@
         "todolist": "To do App for you daily task",
         "weather": "Search for real-time weather in your preferred city.",
         "password": "Generates secure and random keys for your accounts.",
-        "crud": "Manage your data through CRUD operations."
+        "crud": "Manage your data through CRUD operations.",
+        "fitness":"Find your plan for your best version."
       }
     },
     "technologies-section": {

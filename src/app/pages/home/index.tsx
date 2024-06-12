@@ -21,6 +21,7 @@ const Home = () => {
 			<Header />
 			<main className='w-full flex flex-col gap-10 items-center max-w-5xl px-5 xl:max-w-6xl mt-[5.5rem]'>
 				<HeroSection />
+				{/*projects*/}
 				<header className='w-full flex flex-col gap-2 text-center'>
 					<motion.h1
 						initial={{ opacity: 0, y: 20 }}
@@ -42,6 +43,7 @@ const Home = () => {
 					</motion.p>
 				</header>
 				<ExperienceSection />
+				{/*technologies*/}
 				<header className='w-full flex flex-col gap-2 text-center'>
 					<motion.h1
 						initial={{ opacity: 0, y: 20 }}
@@ -63,6 +65,7 @@ const Home = () => {
 					</motion.p>
 				</header>
 				<ToolsSection />
+				{/*experience*/}
 				<header className='w-full flex flex-col gap-2 text-center'>
 					<motion.h1
 						initial={{ opacity: 0, y: 20 }}

@@ -25,20 +25,21 @@ const Footer = () => {
 						{t('others-translations.made-with')} <GoHeartFill className='text-red-700' /> {t('others-translations.and')} <RiReactjsLine className='text-cyan-600 dark:text-react' />
 					</p>
 				</div>
-				<div className='flex flex-col-reverse gap-3 items-end'>
+				<div className='flex flex-col-reverse gap-3 items-center'>
 					<p className='opacity-50 hidden lg:flex'>
 						{t('others-translations.last-update')}
 					</p>
-					<div className='flex items-center gap-2 text-xl'>
+					<div className='flex items-center gap-4 text-xl'>
 						<a
-							className='flex items-center font-medium'
+							className='flex items-center text-xs font-bold p-1 lg:px-6 rounded lg:rounded-lg bg-moonlit text-dusky'
 							href='mailto:navarro.ari.dev@gmail.com'
 							title='Email me'
 						>
 							<MdAlternateEmail />
+							<span className='hidden lg:flex'> Contactame para hacer $</span>
 						</a>
 						<a
-							className='flex items-center font-medium'
+							className='flex items-center font-medium text-2xl'
 							href='https://www.linkedin.com/in/arinavarro/'
 							target='_blank'
 							rel='noreferrer'

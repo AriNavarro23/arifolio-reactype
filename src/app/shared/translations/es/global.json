@@ -15,7 +15,8 @@
         "todolist": "Lista de tareas",
         "weather": "App del Clima",
         "password": "Generador de contraseñas",
-        "crud": "App Crud"
+        "crud": "App Crud",
+        "fitness": "Pagina Fitness para cliente"
       },
       "description": "Algunos de los proyectos en los que he trabajado:",
       "work-experience": "Experiencia laboral",
@@ -24,7 +25,8 @@
         "todolist": "Aplicación para realizar tus tareas diarias.",
         "weather": "Busca el clima de tu ciudad preferida en tiempo real.",
         "password": "Genera claves seguras y aleatorias para tus cuentas.",
-        "crud": "Gestiona tus datos, a traves de operaciones CRUD." 
+        "crud": "Gestiona tus datos, a traves de operaciones CRUD.",
+        "fitness":"Busca tu plan para tu mejor version."
       }
     },
     "technologies-section": {

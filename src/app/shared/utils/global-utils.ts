@@ -12,14 +12,18 @@ import todolist from '../../../assets/todolist.webp'
 import weather from '../../../assets/weather.jpg'
 import crud from '../../../assets/crud.webp'
 import password from '../../../assets/password.webp'
+import fitness from '../../../assets/fitness.png'
+
 //background
 import bg_1 from '../../../assets/bg-melo.jpg'
 import bg_2 from '../../../assets/bg-abc.jpg'
 import bg_3 from '../../../assets/bg-an.jpg'
+
 //logos
 import melo from '../../../assets/logo-melo.png'
 import abc from '../../../assets/logo-abc.webp'
 import an from '../../../assets/logo-an.png'
+
 
 
 export const Projects: IProjectCard[] = [
@@ -66,6 +70,17 @@ export const Projects: IProjectCard[] = [
 		isPrivate: true,
 		index: 4,
 		technologies: ['React Js','|','Tailwind CSS'],
+	},
+	{
+		id: uuid(),
+		project_name: 'projects-section.project_name.fitness',
+		description: 'projects-section.projects.fitness',
+		screenShot: fitness,
+		demoLink: 'https://an-fitness.vercel.app//',
+		className: 'lg:row-span-2 xl:col-span-4',
+		isPrivate: false,
+		index: 5,
+		technologies: ['Html','|','Css','|','JavaScript'],
 	},
 ]
 export const Experiences: IExperienceCard[] = [

@@ -77,7 +77,7 @@ const HeroSection: FC = () => {
 							title='Email'
 						>
 							<MdAlternateEmail />
-							<span className='hidden lg:flex'>Email</span>
+							<span className='hidden lg:flex'>Contactame $</span>
 						</a>
 					</div>
 				</div>
